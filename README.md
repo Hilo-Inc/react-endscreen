@@ -6,7 +6,7 @@ To install and run:
 
 1. Download or clone the repository
 
-2. Open console and go the folder and run:
+2. Open console and go to the folder and run:
 ```
 npm install
 webpack-dev-server --inline --hot
