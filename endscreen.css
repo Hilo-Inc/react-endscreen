@@ -1,0 +1,343 @@
+/*End Screen Playlist = .espl*/
+.espl-vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.espl-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.espl-display-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.espl-display-none {
+    display: none;
+}
+
+#endscreen-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    overflow: hidden;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+
+#expired-message {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #fff;
+    background-color: #111111;
+    text-align: center;
+    border-width: 1px;
+    border-color: #2f2f2f;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+#expired-message > div{
+    width:100%;
+}
+
+#expired-message > div > div {
+    padding-bottom: 10px;
+}
+
+#just-watched {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40%;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    overflow: hidden;
+    padding: 0px 10px 0px 15px;
+}
+
+#more-videos {
+}
+
+#more-videos-hor {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    overflow: hidden;
+    padding: 0px 10px 0px 10px;
+}
+
+#more-videos-vert {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: start;    
+    align-items: start;
+    overflow: hidden;
+    padding: 0px 10px 0px 10px;
+    border-width: 1px;
+    border-color: #2f2f2f;
+    border-left-style: solid;
+}
+
+.espl-title {
+    display: block;
+    -webkit-flex-basis: 100%;
+    -ms-flex-basis: 100%;
+    flex-basis: 100%;
+    color: #aaa;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    padding: 10px 0px;
+}
+
+.espl-titleVertical {
+	padding: 0px;
+}
+
+.espl-item {
+    display: inline-block;
+    border-width: 1px;
+    border-color: #2f2f2f;
+    border-bottom-style: solid;
+    cursor: pointer;
+}
+
+.espl-item.espl-itemHorizontal {
+    background-color: #111111;
+    width: 140px;
+    height: 170px;
+}
+
+.espl-item.espl-itemVertical {
+    background-color: #000;
+    height: 67px;
+}
+
+.espl-item.espl-itemVertical:last-child {
+    border-bottom-style: none;
+}
+
+.espl-playBtnVertical {
+    display: block;
+    position: relative;
+    width: 40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);    
+    transform: translateY(-50%);
+    float: left;
+}
+
+.espl-playBtnVertical div {
+    display: block;
+    width: 26px;
+    height: 26px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	background-image: url(alfaSkin/playIcon_grey.png);
+	background-size: 26px 26px;
+    background-repeat: no-repeat;
+}
+
+.espl-thumbnail {
+    display: inline-block;
+    position: relative;
+    width: 138px;
+    height: 78px;
+    background-image: none;
+    background-size: 138px 78px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    margin-right: 7px;
+    float: left;
+}
+
+.espl-thumbnailPlayImage {
+    display: block;
+    position: absolute;
+    top: 0;
+    float: left;
+    width: 38px;
+    height: 38px;
+    background-image: url(alfaSkin/playIcon.png);
+}
+
+.espl-thumbnailPlayTime {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 11px;
+    color: white;
+    padding: 3px 4px 3px 4px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.espl-itemMeta {
+    display: block; 
+	display: -webkit-box;
+	margin: 0 auto;
+	line-height: 1.4;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    height: 100%;
+    width: 138px;
+    overflow: hidden;
+    float: left;
+    margin-left: 7px;
+}
+
+.espl-itemMetaVertical {
+	display: block; 
+	display: -webkit-box;
+	line-height: 1.4;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.espl-itemMetaWatchAgain {
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	width: 200px;
+    margin-left: 0px;
+}
+
+.espl-itemMetaWatchAgain > div {
+    line-height: 1.1em;
+}
+
+.espl-showName {
+    display: block;
+    width: 100%;
+    font-size: 0.75em;
+    color: #fff;    
+    padding: 0px 10px 5px 0px;
+    line-height: 1.4em;
+    margin: 0 auto;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.espl-showInfo {
+    display: block;
+    font-size: 0.75em;
+    color: #aaa;    
+    padding: 0px 10px 5px 0px;
+    line-height: 1.4em;
+    margin: 0 auto;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.espl-showNameVertical {
+    display: block;
+    font-size: 0.75em;
+    color: #fff;
+    /*margin: 10px 0px 0px 0px;*/
+}
+
+.espl-showInfoVertical {
+    display: block;
+    font-size: 0.75em;
+    color: #aaa;
+    margin: 5px 0px 0px 0px;
+}
+
+.espl-btnWatchAgain {
+    width: 92px;
+    height: 15px;
+    color: #fff;
+    background: #777777;
+    border-radius: 2px;
+    padding: 6px 8px 6px 8px;
+    /*margin-top: 5px;*/
+    font-size: 0.75em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.espl-btnWatchAgain div {
+    float: right;
+    width: 18px;
+    height: 14px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	background-image: url(alfaSkin/Watch_Again_Repeat_x2.png);
+    background-size: 18px 14px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.espl-btnVisitNow {
+    display: inline-block;
+    width: 70px;
+    /*height: 10px;*/
+    color: #fff;
+    background: #777777;
+    border-radius: 2px;
+    padding: 6px 8px 6px 8px;
+    margin: auto;
+    font-size: 0.85em;
+    cursor: pointer;
+}

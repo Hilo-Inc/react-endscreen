@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Video Player End Screen</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" href="endscreen.css">
+</head>
+<body>
+
+<!-- leave alfaWatchAgain for testing -->
+<div class="alfaWatchAgain"></div>
+<div id="parentContainer">
+    <div class="container"></div>
+</div>
+
+<!-- 
+
+This is the end screen HTML structure after it is rendered
+
+<div id="endscreen-container">
+	<div id="just-watched"></div>
+	<div id="more-videos">
+		<div className="title">More Videos</div>
+		<div id="more-videos-hor">
+			<ul class="videoItems">
+				<li class="videoItem">
+					<div class="videoThumb"></div>
+					<div class="showName"></div>
+					<div class="showInfo"></div>
+				</li>
+			</ul>
+		</div>
+		<div id="more-videos-vert"></div>
+	</div>
+</div>
+
+-->
+
+<div>
+	<button onclick="endScreen.onExpiredMessageClick()">Expired Message ON/OFF</button>
+	<div class="espl-expiredMessageBtn">true</div>
+</div>
+
+<div>
+	<button onclick="endScreen.onJustWatchedClick()">Just Watched ON/OFF</button>
+	<div class="espl-justWatchedBtn">true</div>
+</div>
+
+<div>
+	<button onclick="endScreen.onMoreVideosClick()">More Videos ON/OFF</button>
+	<div class="espl-moreVideosBtn">true</div>	
+</div>
+
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>

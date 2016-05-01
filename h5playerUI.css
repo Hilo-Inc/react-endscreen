@@ -1,0 +1,345 @@
+/*! 14.5.20
+*/
+/*Hide native video controls*/
+video::-webkit-media-controls-overlay-play-button {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+}
+.alfaHeaderH5 {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #2e2e2e;
+    font-family: arial;
+}
+.alfaRight {
+    display: none;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 80%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: arial;
+    -webkit-overflow-scrolling:auto;
+    /*z-index: 10;*/
+}
+.logoOP {
+    height: 44px !important;
+   /* width: 185px;
+    padding-top: 5%;*/
+}
+.hBtn {
+    height: 44px;
+    width: 44px;
+}
+.lh0 {
+    float: left;
+    line-height: 0;
+}
+.txt {
+    font-family: arial;
+    font-size: 1em;
+    color: #aaa;
+}
+.txtL1 {
+    font-size: 12px;
+    color: #a3a3a3;
+    line-height: 16px;
+    font-family: arial;
+}
+.txtL {
+    font-size: 18px;
+    color: #a3a3a3;
+    line-height: 70px;
+    font-family: arial;
+}
+.txtB {
+    color: #fff;
+    font-family: arial;
+    /*padding-left: 13px;*/
+}
+.txtA {
+    font-size: 16px;
+    color: #b7b7b7;
+    line-height: 35px;
+    padding-left: 13px;
+    font-family: arial;
+}
+.txtM {
+    font-size: 14px;
+    color: #d9d9d9;
+    line-height: 25px;
+    font-family: arial;
+}
+.meta_l2b{
+    color: #a3a3a3;
+    font-family: arial;
+}
+.meta_l3b{
+    color: #a3a3a3;
+    font-family: arial;
+}
+.ovl {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85);
+}
+.ovl2
+{
+    background-color: #111111;
+}
+.ovl3
+{
+    background-color: #030303;
+}
+.modeLive{
+    padding-left: 13px;
+}
+.btnAdMoreInfo {
+    float: right;
+    width: 90px;
+    height: 14px;
+    font-size: 12px;
+    margin: 4px 9px 0 0;
+    padding: 2px 7px 12px 14px;    
+    color: #fff;
+    border-radius: 2px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75);
+    font-family: arial;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+.btnWatchAgain {
+    color: #fff;
+    background: #777777;
+    border-radius: 2px;
+    padding: 6px 8px 6px 8px;
+}
+.btnWatchAgainImg {
+    height: 14px;
+}
+.alfaLstPlaytime{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 11px;
+    color: white;
+    padding: 3px 4px 3px 4px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.btnSocialMedia img {
+    margin-right: 4%;
+    vertical-align: middle;
+  /*  width: 27px;*/
+    height: 27px;
+}
+.div_Link {
+    width: 100%;
+    background: #000;
+    background: rgba(248, 248, 248, .4);
+    
+}
+.clickable-div {
+    cursor: pointer;
+}
+.alfaShare {
+    display: none;
+    color: #aaa;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 4%;
+    font-family: arial;
+}
+.alfaShareSmall {
+    display: none;
+    color: #aaa;
+    margin: 10px 0px 0px 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: arial;
+}
+.alfaInfo {
+    display: none;
+    color: #a3a3a3;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: arial;
+}
+.alfaInfo > div {
+    display: block;
+    padding: 15px;
+    color: #a3a3a3;
+    font-family: arial;
+}
+.alfaInfo > span {
+    display: block;
+    color: #a3a3a3;
+    font-family: arial;
+}
+.info_title {
+    color: #fff;
+    font-size: 1.2em;
+    font-family: arial;
+}
+.info_meta {
+    color: #aaa;
+    font-size: 1.1em;   
+    font-family: arial;
+}
+.info_label {
+    color: #666;
+    font-size: 0.9em;   
+    float:left;
+    width:50px;
+    font-family: arial;
+}
+.overlayTitles {
+    display: inline-block;
+    margin: 3% 0px 5px 0px;
+}
+.overlayFirstTitles {
+    display: inline-block;
+    margin: 0px 0px 5px 0px;
+}
+.shareText {
+    font-size: 1.3em;
+    margin: 0px 15px 0px 0px;
+}
+.buttonGroup {
+    float: left;
+    overflow: hidden;
+    max-width: 92px;
+    min-height: 50px;
+}
+.buttonGroup button {
+    float: left;
+    width: 62px;
+    height: 27px;
+    margin: 0px 10px 20px 10px;
+}
+.containerGroup {
+    float: left;
+    margin-left: 10px;
+    position: absolute;
+    left: 92px;
+    right: 25px;
+}
+button {
+    border: 0px;
+    border-radius: 3px;
+}
+button:focus {
+    outline: none;
+}
+/*button:hover {
+    color: #ababab;
+    background-color: #666;
+}*/
+
+.btn-unselected {
+    color: #ababab;
+    background-color: #515151;
+}
+.btn-selected {
+    color: #000;
+    background-color: #fff;
+}
+select {
+    width: 100%;
+    color: #ccc;
+    background: none;
+    border: 1px #fff;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+textarea {
+    width: 95%;
+    color: #ccc;
+    background: #f8f8f8;
+    background: rgba(248, 248, 248, .4);
+    border: 1px #fff;
+    overflow: auto;
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 25px;
+    resize: none;
+}
+.meta_vidLink {
+    height: 25px;
+}
+.textarea_share {
+    height: 25px;
+}
+.textarea_embed {
+    height: 25px;
+}
+/*select {
+    padding: 5px;
+    margin: 10px 0px;
+}*/
+
+.meta_sizeSelector > select {
+    width: 103px;
+    height: 25px;
+    background: #f8f8f8;
+    background: rgba(248, 248, 248, .4);
+}
+.meta_sizeSelector > form {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0px;
+}
+.meta_sizeSelector > form > label {
+    font-weight: normal;
+    padding-right: 6%;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
+}
+.meta_sizeSelector > form > label > input {
+    color: #525250;
+}
+.alfaPlayBtn {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -45px auto auto -45px;
+}
+.alfaMeta {
+    display: none;
+    position: absolute;
+    height: 44px;
+    left: 0px;
+    right: 0px;
+    clear: both;
+}
+.alfaMetadataLine {
+    padding-left: 13px;
+    line-height: 70px;
+}
+.alfaAd_title {
+    padding-left: 13px;
+}
+.playerEllipsis {
+display: inline-block;
+max-width: 100px;
+ms-text-overflow: ellipsis;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+margin-top: 0px;
+padding-top: 0px;
+float:left;
+}
+.op_3423_10{
+    display:inline-block;
+    margin-top:10px;
+}
+.op_3423_20{
+    display:inline-block;
+    margin-top:20px;
+}

@@ -1,0 +1,323 @@
+{
+    "copyFlash": {
+        "copy": [{
+            "-language": "en",
+            "endscreen": {
+                "-description": "Copy used for the end screen(videolist) overlay",
+                "-delimiter": "\\n",
+                "item": [{
+                    "-id": "replay",
+                    "-description": "Copy used replay button",
+                    "copy": "Watch again"
+                }, {
+                    "-id": "watchagainheader",
+                    "-description": "Header used for watch again view",
+                    "copy": "Just Watched"
+                }, {
+                    "-id": "medialistheader",
+                    "-description": "Header used for medialist/playlist view",
+                    "copy": "More Videos"
+                }, {
+                    "-id": "expiredmessage",
+                    "-description": "Expired message",
+                    "copy": "Video is not available. Visit CTV for more."
+                }, {
+                    "-id": "expiredmessagebutton",
+                    "-description": "Expired message button",
+                    "copy": "Visit Now"
+                }, {
+                    "-id": "expiredmessagebuttonlink",
+                    "-description": "Page to open when button is clicked",
+                    "copy": "http://www.ctv.ca"
+                }]
+            }
+        }, {
+            "-language": "fr",
+            "endscreen": {
+                "-description": "Copy used for the end screen(videolist) overlay",
+                "-delimiter": "\\n",
+                "item": [{
+                    "-id": "replay",
+                    "-description": "Copy used replay button",
+                    "copy": "Watch again"
+                }, {
+                    "-id": "watchagainheader",
+                    "-description": "Header used for watch again view",
+                    "copy": "Just Watched"
+                }, {
+                    "-id": "medialistheader",
+                    "-description": "Header used for medialist/playlist view",
+                    "copy": "More Videos"
+                }, {
+                    "-id": "expiredmessage",
+                    "-description": "Expired message",
+                    "copy": "Video is not available. Visit CTV for more."
+                }, {
+                    "-id": "expiredmessagebutton",
+                    "-description": "Expired message button",
+                    "copy": "Visit Now"
+                }, {
+                    "-id": "expiredmessagebuttonlink",
+                    "-description": "Page to open when button is clicked",
+                    "copy": "http://www.ctv.ca"
+                }]
+            }
+        }]
+    },
+    "morevideos": {
+        "Items": [{
+            "Id": 606228,
+            "duration": 125.863,
+            "Name": "Clips: Chef Michael",
+            "Desc": "Michael Bonacini has to help the Red Team catch up during the restaurant takeover at Canoe.",
+            "Type": "segment",
+            "Media": {
+                "Id": 31497,
+                "duration": 125.863,
+                "Name": "MasterChef Canada MasterChef Canada MasterChef Canada",
+                "Type": "series",
+                "InfoUrl": "http://www.ctv.ca/MasterChefCanada.aspx",
+                "Images": [{
+                    "Type": "thumbnail",
+                    "Url": "http://images.9c9media.com/image_asset/2015_1_29_30afe5f0-8a2f-0132-09a5-34b52f6f1279_jpg_2000x1125.jpg",
+                    "Width": 2000,
+                    "Height": 1125
+                }]
+            },
+            "Season": {
+                "Id": 63083,
+                "duration": 125.863,
+                "Name": "Season 2",
+                "Number": 2
+            },
+            "Episode": 12,
+            "Images": [{
+                "Type": "thumbnail",
+                "Url": "http://images.9c9media.com/image_asset/2015_5_4_109a4fd0-d49d-0132-1d08-34b52f6f1279_png_1920x1080.jpg",
+                "Width": 1920,
+                "Height": 1080
+            }],
+            "Authentication": {
+                "Required": false,
+                "Resources": null
+            }
+        }, {
+            "Id": 600768,
+            "duration": 125.863,
+            "Name": "Clips: Claudio shows off in the MasterChef Canada MasterChef Canada MasterChef Canada kitchen",
+            "Desc": "The judge and renowned chef finishes the Mystery Box challenge in record time.",
+            "Type": "segment",
+            "Media": {
+                "Id": 31497,
+                "duration": 125.863,
+                "Name": "MasterChef Canada MasterChef Canada MasterChef Canada",
+                "Type": "series",
+                "InfoUrl": "http://www.ctv.ca/MasterChefCanada.aspx",
+                "Images": [{
+                    "Type": "thumbnail",
+                    "Url": "http://images.9c9media.com/image_asset/2015_1_29_30afe5f0-8a2f-0132-09a5-34b52f6f1279_jpg_2000x1125.jpg",
+                    "Width": 2000,
+                    "Height": 1125
+                }]
+            },
+            "Season": {
+                "Id": 63083,
+                "duration": 125.863,
+                "Name": "Season 2",
+                "Number": 2
+            },
+            "Episode": 11,
+            "Images": [{
+                "Type": "thumbnail",
+                "Url": "http://images.9c9media.com/image_asset/2015_4_27_85074ff0-cf19-0132-9d5f-10604ba4c9b1_png_1920x1080.jpg",
+                "Width": 1920,
+                "Height": 1080
+            }],
+            "Authentication": {
+                "Required": false,
+                "Resources": null
+            }
+        }, {
+            "Id": 600769,
+            "duration": 125.863,
+            "Name": "Clips: Catastrophe in the MasterChef Canada MasterChef Canada MasterChef Canada kitchen",
+            "Desc": "Both David and Line have mishaps during a tense elimination challenge.",
+            "Type": "segment",
+            "Media": {
+                "Id": 31497,
+                "duration": 125.863,
+                "Name": "MasterChef Canada MasterChef Canada MasterChef Canada",
+                "Type": "series",
+                "InfoUrl": "http://www.ctv.ca/MasterChefCanada.aspx",
+                "Images": [{
+                    "Type": "thumbnail",
+                    "Url": "http://images.9c9media.com/image_asset/2015_1_29_30afe5f0-8a2f-0132-09a5-34b52f6f1279_jpg_2000x1125.jpg",
+                    "Width": 2000,
+                    "Height": 1125
+                }]
+            },
+            "Season": {
+                "Id": 63083,
+                "duration": 125.863,
+                "Name": "Season 2",
+                "Number": 2
+            },
+            "Episode": 11,
+            "Images": [{
+                "Type": "thumbnail",
+                "Url": "http://images.9c9media.com/image_asset/2015_4_27_042db800-cf1a-0132-9d5e-10604ba4c9b1_png_1920x1080.jpg",
+                "Width": 1920,
+                "Height": 1080
+            }],
+            "Authentication": {
+                "Required": false,
+                "Resources": null
+            }
+        }, {
+            "Id": 595587,
+            "duration": 125.863,
+            "Name": "Clips: Three Home Cooks return to the MasterChef Canada MasterChef Canada MasterChef Canada kitchen",
+            "Desc": "Cody, Kevin and Andrew return for another shot at a white apron.",
+            "Type": "segment",
+            "Media": {
+                "Id": 31497,
+                "duration": 125.863,
+                "Name": "MasterChef Canada MasterChef Canada MasterChef Canada",
+                "Type": "series",
+                "InfoUrl": "http://www.ctv.ca/MasterChefCanada.aspx",
+                "Images": [{
+                    "Type": "thumbnail",
+                    "Url": "http://images.9c9media.com/image_asset/2015_1_29_30afe5f0-8a2f-0132-09a5-34b52f6f1279_jpg_2000x1125.jpg",
+                    "Width": 2000,
+                    "Height": 1125
+                }]
+            },
+            "Season": {
+                "Id": 63083,
+                "duration": 125.863,
+                "Name": "Season 2",
+                "Number": 2
+            },
+            "Episode": 10,
+            "Images": [{
+                "Type": "thumbnail",
+                "Url": "http://images.9c9media.com/image_asset/2015_4_20_ef4bc3c0-c9a0-0132-19ee-34b52f6f1279_png_1920x1080.jpg",
+                "Width": 1920,
+                "Height": 1080
+            }],
+            "Authentication": {
+                "Required": false,
+                "Resources": null
+            }
+        }, {
+            "Id": 595588,
+            "duration": 125.863,
+            "Name": "Clips: Jennifer Makes a Game-Changing Mistake",
+            "Desc": "The Home Cook forgets to grab the crucial ingredient to make a mousse.",
+            "Type": "segment",
+            "Media": {
+                "Id": 31497,
+                "duration": 125.863,
+                "Name": "MasterChef Canada MasterChef Canada MasterChef Canada",
+                "Type": "series",
+                "InfoUrl": "http://www.ctv.ca/MasterChefCanada.aspx",
+                "Images": [{
+                    "Type": "thumbnail",
+                    "Url": "http://images.9c9media.com/image_asset/2015_1_29_30afe5f0-8a2f-0132-09a5-34b52f6f1279_jpg_2000x1125.jpg",
+                    "Width": 2000,
+                    "Height": 1125
+                }]
+            },
+            "Season": {
+                "Id": 63083,
+                "duration": 125.863,
+                "Name": "Season 2",
+                "Number": 2
+            },
+            "Episode": 10,
+            "Images": [{
+                "Type": "thumbnail",
+                "Url": "http://images.9c9media.com/image_asset/2015_4_20_4e2ae650-c9a1-0132-19ef-34b52f6f1279_png_1920x1080.jpg",
+                "Width": 1920,
+                "Height": 1080
+            }],
+            "Authentication": {
+                "Required": false,
+                "Resources": null
+            }
+        }, {
+            "Id": 590504,
+            "duration": 125.863,
+            "Name": "Clips: Chef Graham Elliot presents a surprising Mystery Box",
+            "Desc": "Chef Graham Elliot makes a MasterChef-worthy entrance.",
+            "Type": "segment",
+            "Media": {
+                "Id": 31497,
+                "duration": 125.863,
+                "Name": "MasterChef Canada MasterChef Canada MasterChef Canada",
+                "Type": "series",
+                "InfoUrl": "http://www.ctv.ca/MasterChefCanada.aspx",
+                "Images": [{
+                    "Type": "thumbnail",
+                    "Url": "http://images.9c9media.com/image_asset/2015_1_29_30afe5f0-8a2f-0132-09a5-34b52f6f1279_jpg_2000x1125.jpg",
+                    "Width": 2000,
+                    "Height": 1125
+                }]
+            },
+            "Season": {
+                "Id": 63083,
+                "duration": 125.863,
+                "Name": "Season 2",
+                "Number": 2
+            },
+            "Episode": 9,
+            "Images": [{
+                "Type": "thumbnail",
+                "Url": "http://images.9c9media.com/image_asset/2015_4_13_3ebb7c80-c41b-0132-1849-34b52f6f1279_png_1920x1080.jpg",
+                "Width": 1920,
+                "Height": 1080
+            }],
+            "Authentication": {
+                "Required": false,
+                "Resources": null
+            }
+        }],
+        "ItemsType": "Content"
+    },
+    "justwatched": {
+        "Id": 606228,
+        "duration": 125.863,
+        "Name": "Clips: Chef Michael",
+        "Desc": "Michael Bonacini has to help the Red Team catch up during the restaurant takeover at Canoe.",
+        "Type": "segment",
+        "Media": {
+            "Id": 31497,
+            "duration": 125.863,
+            "Name": "MasterChef Canada MasterChef Canada MasterChef Canada",
+            "Type": "series",
+            "InfoUrl": "http://www.ctv.ca/MasterChefCanada.aspx",
+            "Images": [{
+                "Type": "thumbnail",
+                "Url": "http://images.9c9media.com/image_asset/2015_1_29_30afe5f0-8a2f-0132-09a5-34b52f6f1279_jpg_2000x1125.jpg",
+                "Width": 2000,
+                "Height": 1125
+            }]
+        },
+        "Season": {
+            "Id": 63083,
+            "Name": "Season 2",
+            "Number": 2
+        },
+        "Episode": 12,
+        "Images": [{
+            "Type": "thumbnail",
+            "Url": "http://images.9c9media.com/image_asset/2015_5_4_109a4fd0-d49d-0132-1d08-34b52f6f1279_png_1920x1080.jpg",
+            "Width": 1920,
+            "Height": 1080
+        }],
+        "Authentication": {
+            "Required": false,
+            "Resources": null
+        }
+    }
+}
