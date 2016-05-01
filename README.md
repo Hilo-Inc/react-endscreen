@@ -4,7 +4,7 @@ I did not use full ES6 classes or Redux
 
 To install and run:
 
-1. Download and install Node.js  https://nodejs.org/en/download/ 
+1. Download and install Node.js  https://nodejs.org/en/download/
 ```
 https://nodejs.org/en/download/
 ```
