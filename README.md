@@ -1,5 +1,5 @@
 # react-endscreen
-Video player end screen created with React and using CSS3 Flexbox and ES6 import statements.
+Video player end screen created with React using CSS3 Flexbox and ES6 import statements.
 I did not use full ES6 classes or Redux
 
 To install and run:
